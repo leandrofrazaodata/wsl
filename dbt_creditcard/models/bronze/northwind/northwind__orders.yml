@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: northwind__orders
+    description: This table has basic information about orders, from northwind system.
+
+    columns:
+      - name: order_id
+        description: This is a unique identifier for a order
+        tests:
+          - unique
+          - not_null

@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: northwind
+    database: lakehouse  
+    schema: raw  
+    tables:
+      - name: orders
+      - name: customers
+      - name: categories
+      - name: employees
+      - name: employee_territories
+      - name: order_details
+      - name: products
+      - name: region
+      - name: shippers
+      - name: territories
+      - name: us_state
+      - name: suppliers
